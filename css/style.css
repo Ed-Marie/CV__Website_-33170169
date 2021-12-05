@@ -1,0 +1,312 @@
+/*!
+ * Start Bootstrap - Shop Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@font-face {
+    font-family:andongi;
+    src: url(../fonts/andongi.ttf);
+}
+@font-face {
+    font-family:andong;
+    src: url(../fonts/andong.ttf);
+}
+@font-face {
+    font-family:baroque;
+    src: url(../fonts/baroque.ttf);
+}
+
+*
+{
+	font-family: andongi;
+}
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+	
+}
+.text-center
+{
+	text-align: center;
+}
+.text-left
+{
+	text-align: left;
+}
+.text-right
+{
+	text-align: right;
+}
+.uppercase
+{
+	text-transform: uppercase !important;
+}
+.capital
+{
+	text-transform: capitalize !important;
+}
+.half
+{
+	width: 50% !important;
+}
+
+a {
+	text-decoration: none;
+}
+ul, ol {
+	margin: 0px;
+}
+.center
+{
+	width:95%;
+	margin:auto;
+	position:relative;
+}
+.container {
+	width: 866px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+	box-shadow: rgba(249, 144, 181, 0.25) 0px 54px 55px, rgba(249, 144, 181, 0.12) 0px -12px 30px, rgba(249, 144, 181, 0.12) 0px 4px 6px, rgba(249, 144, 181, 0.17) 0px 12px 13px, rgba(249, 144, 181, 0.09) 0px -3px 5px;
+}
+.innerContainer {
+	width: 98%;
+	margin: auto;
+	position: relative;
+}
+header, section, footer, .row
+{
+	width:100%;
+	float:left;
+	position:relative;
+}
+.left
+{
+	float: left;
+	position: relative;
+	
+}
+.right
+{
+	float: right;
+	position: relative;
+}
+header{
+	height: 110px;
+	border-bottom: 10px solid #f98fb5;
+	background: rgb(250,154,186);
+background: linear-gradient(180deg, rgba(250,154,186,1) 0%, rgba(253,224,234,1) 24%, rgba(255,255,255,1) 47%);
+}
+.title{
+	font-family: baroque !important;
+	color: #898484;
+	font-size: 25px;
+	margin: 10px 0px 0px;
+	line-height: 50px;
+}
+.name{
+	font-size: 50px;
+	font-style: italic;
+	margin: 0px;
+	line-height: 40px;
+}
+section{
+	margin-top: 10px;
+}
+.introSec{
+	width: 62%;
+	height: 320px;
+	border: 7px solid #f98fb5;
+	background: #c7c9ce;
+	box-sizing: border-box;
+	
+}
+.introPic{
+	overflow: hidden;
+	height: 190px;
+}
+.introPic img{
+	width: 100%;
+	height: 100%;
+	
+}
+.introText{
+	color: #110c0c;
+	font-size: 13px;
+	padding: 4px;
+	margin: 0px;
+	margin-top: 5px;
+}
+.dp{
+	width: 37%;
+	height: 320px;
+	border: 7px solid #f98fb5;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.dp img{
+	width: 100% !important;
+	height: 100% !important;
+}
+.tab{
+	min-height: 100px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.heading{
+	background: rgb(249,143,181);
+background: linear-gradient(90deg, rgba(249,143,181,1) 0%, rgba(255,255,255,1) 48%);
+	margin: 0px;
+	padding-left: 5px;
+	line-height: 25px;
+	font-size: 18px;
+}
+table{
+	border: none;
+	padding: 5px;
+}
+tr:nth-child(odd) {
+  background-color: #fef0f4;
+}
+thead tr, th{
+	text-align: left;
+	background: none !important; 
+}
+td{
+	font-family: andong;
+}
+td strong{
+	font-family: andongi;
+}
+td a{
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 17px;
+}
+.skillList{
+	width: 45% !important;
+	margin: 5px 0px 10px 0px;
+}
+.skillList .subList{
+	margin: 5px 0px 0px;
+	padding-left: 20px;
+}
+.skillList li{
+	display: inline-block;
+	line-height: 20px;
+}
+.subList li{
+	width: 100%;
+	font-family: andong;
+	list-style: circle !important;
+	float: left;
+	position: relative;
+}
+
+.skillList > li:before{
+	content: '';
+	left: 30px;
+	top: 9px;
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: pink;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.subList > li:before{
+	content: '';
+	left: -11px;
+	top: 8px;
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: pink;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.allSkills li:before{
+	content: '';
+	left: -11px;
+	top: 8px;
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: pink;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.allSkills li{
+	width: 50%;
+	float: left;
+	position: relative;
+	list-style: none;
+	text-align: left;	
+	font-family: andong;
+}
+
+.allSkills li:before{
+	content: '';
+	left: -11px;
+	top: 9px;
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: pink;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.awardList, .awardList li, .awardSubList{
+	width: 100% !important;
+}
+.tech{
+	margin: 20px 0px 0px;
+}
+.tech img{
+	width: 100px;
+	display: inline-block;
+	
+}
+
+footer{
+	background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 74%, rgba(249,143,181,1) 100%);
+}
+footer img{
+	width: 100%;
+	height: 70px;
+	float: left;
+	position: relative;
+}
+.footerText{
+	font-size: 14px;
+}
+
+/***********animaton***************/
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+/******slider******************/
+.cjFancyTransition {
+    position: relative;
+}
+#cjFlashyTransitionBottom{
+	background-position: center !important;
+	background-size: cover !important;
+}
